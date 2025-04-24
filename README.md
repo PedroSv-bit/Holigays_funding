@@ -32,7 +32,10 @@ Currently, the mainstream OTA's, such as booking.com or hotels.com provide at th
 
 Ideally the project developped in this sandbox will eventually become part of this wider Niche-related, Hotel-as-destination OTA, or should it have success as independent interface, it could still profit from the engine of the wider project as SaaS.
 ### User Stories
-
+* LGBTQIA+ Traveller User needs a way to get informed of the existence of the project and register so that they can follow.
+* LGBTQIA+ Traveller User needs a way to show support for the initiative so that they can donate.
+* Investor Users need a way to book an appointment so that they can meet and get pitched.
+* Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
 
 ### Design choices
 
