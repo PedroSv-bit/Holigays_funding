@@ -38,21 +38,34 @@ Ideally the project developped in this sandbox will eventually become part of th
 * Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
 
 ### Design choices
-
 #### Fonts
-
+Sans-Serif
 #### Icons
 
 #### Images
-
+Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The click on logo takes you to Arlesiana website.
+Hero-image of own copyright from Brighton Pride.
+Other assets from fee-of-charge stock
 #### Branding and Swatch
-
+Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners.
+Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
+Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A).
 ### Wireframes
 
 ### Customer journey
 
 ### Pages
-
+- Index.html
+- Holigays home page – mirror index, for the loading on the Arlesiana website
+- Investors and partnerships landing page
+- Investors and partnerships registration form, unless embedded appointment interface collects that information too
+- Appointment confirmation page, if needed
+- Prospective customer landing page with external links to 'Crowdfunding' and 'buy me a coffee' and link to
+- 'Register for further information' form
+- 'Read more' page for Investors/partners
+- About page
+- Information for hoteliers
+- 404 page
 ## Features
 
 ## Technologies used
