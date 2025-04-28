@@ -1,0 +1,12 @@
+/* Utility Classes */
+.floating-navbar {
+    margin: 8px;
+    border-radius: 8px;
+    z-index: 1030;
+    }
+.navbar-footer-local {
+    background-color: #282c34; 
+    border: 1px solid #444;
+    font-family: 'Arial', sans-serif; 
+    color: #ffffff;
+    }
