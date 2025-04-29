@@ -39,7 +39,10 @@ Ideally the project developped in this sandbox will eventually become part of th
 
 ### Design choices
 #### Fonts
-Sans-Serif
+Sans-Serif choices:
+- Syne
+- Syne-mono
+- IBM Plex Sans
 #### Icons
 
 #### Images
@@ -50,6 +53,8 @@ Other assets from fee-of-charge stock
 Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners.
 Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
 Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A).
+Provisory Branding including graphics and mockup logo are based on the LGBTQIA+ rainbow flag. Text and font elements are compatible with a limited swatch:
+![Full swatch](assets/images/Full%20swatch.PNG)
 ### Wireframes
 The responsive design of the index.html from smallest media to largest should flow according to this wireframe:
 ![Wireframe responsive design smallest to largest media](/assets/images/Holigays%20Funding%20Home%20responsive%20v3.png)
