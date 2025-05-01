@@ -9,7 +9,30 @@ body {
     margin: 0;
     padding: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', sans-serif;
+    color: #1E3A5F;
+}
 
+h1 { 
+    font-weight: 800; 
+    text-shadow: 2px 2px 3px #B0B4BA; 
+}
+h2 { 
+    font-weight: 700;
+}
+h3 { 
+    font-weight: 600;
+}
+h4 { 
+    font-weight: 500;
+}
+h5 { 
+    font-weight: 400;
+}
+h6 { 
+    font-weight: 300;
+}
 /* Utility Classes */
 .floating-navbar {
     margin: 8px;
