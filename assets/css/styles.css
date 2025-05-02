@@ -57,6 +57,7 @@ h6 {
 .container {
     display: flex;
     justify-content: center;
+    border: 1px solid #555C66; /* Just for visualization */
     align-items: center;
     height: 100vh;
 }
@@ -70,7 +71,7 @@ h6 {
 
 /* Identity styles */
 
-#bmc-container {
+#bmc-container { /*likely obsolete - to remove*/
     position: relative;
     width: 300px; 
     height: 200px;
