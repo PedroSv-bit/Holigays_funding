@@ -1,4 +1,9 @@
 /* Global styles */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     background-color: #FAF9F6;
     font-family: "IBM Plex Sans", sans-serif;
@@ -9,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Syne', sans-serif;
     color: #1E3A5F;
@@ -33,15 +39,40 @@ h5 {
 h6 { 
     font-weight: 300;
 }
+
 /* Utility Classes */
 .floating-navbar {
     margin: 8px;
     border-radius: 8px;
     z-index: 1030;
     }
+
 .navbar-footer-local {
     background-color: #282c34; 
     border: 1px solid #444;
     font-family: 'Arial', sans-serif; 
     color: #ffffff;
     }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid #555C66; /* Just for visualization */
+    padding: 10%;
+}
+
+/* Identity styles */
+
+#bmc-container {
+    position: relative;
+    width: 300px; 
+    height: 200px;
+    overflow: hidden;
+}
