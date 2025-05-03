@@ -105,6 +105,14 @@ p:a {
 
 /* Identity styles */
 
+#navbar-logo {
+    height: 50px;
+    width: auto; 
+    border-radius: 50% !important;
+    object-fit: cover;
+    margin: 1px;
+}
+
 #bmc-container { /*likely obsolete - to remove*/
     position: relative;
     width: 300px; 
