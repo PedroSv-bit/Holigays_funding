@@ -40,6 +40,11 @@ h6 {
     font-weight: 300;
 }
 
+a {
+    color: #6C8E89;
+}
+
+
 /* Utility Classes */
 .floating-navbar {
     margin: 8px;
@@ -67,6 +72,18 @@ h6 {
     max-width: 800px;
     border: 1px solid #555C66; /* Just for visualization */
     padding: 10%;
+}
+
+/* Pseudo-classes */
+
+a:hover {
+    color: #1E3A5F;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #555C66;
+    text-decoration: none;
 }
 
 /* Identity styles */
