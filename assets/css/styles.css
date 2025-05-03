@@ -40,12 +40,8 @@ h6 {
     font-weight: 300;
 }
 
-a {
-    color: #6C8E89 !important;
-}
-
-
 /* Utility Classes */
+
 .floating-navbar {
     margin: 8px;
     border-radius: 8px;
@@ -80,16 +76,31 @@ a {
     color: #9C27B0 !important;
 }
 
+.navbar-link-local {
+    font-family: 'Syne Mono', monospace;
+    color: #9C27B0 !important;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 /* Pseudo-classes */
 
-a:hover {
+p a:hover {
     color: #1E3A5F;
     text-decoration: underline;
 }
 
-a:visited {
+p a:visited {
     color: #555C66;
     text-decoration: none;
+}
+
+.navbar-link-local:hover {
+    color: #E91E63;
+}
+
+p:a {
+    color: #6C8E89 !important;
 }
 
 /* Identity styles */
