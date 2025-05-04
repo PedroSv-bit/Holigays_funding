@@ -15,6 +15,15 @@ body {
     padding: 0;
 }
 
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: lightgray; /* Just for visualization */
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Syne', sans-serif;
     color: #1E3A5F;
