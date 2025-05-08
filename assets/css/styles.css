@@ -107,6 +107,14 @@ h6 {
     padding: 5px;    
 }
 
+.logo_illustration {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto; /* Center the image */
+}
+
 /* Pseudo-classes */
 
 p a:hover {
@@ -132,7 +140,14 @@ p:a {
 }
 
 .item1:nth-child(2) {
+    display:flex
     width: 20%;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+.item1:nth-child(2) img {
+    align:self: center; 
 }
 
 /* Identity styles */
