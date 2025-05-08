@@ -151,11 +151,11 @@ p:a {
     height: 200px;
     overflow: hidden;
 }
-/*Media instructions*/
+/*Media instructions for viewport*/
 @media (max-width: 768px) {
     .container1 {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center items horizontally */
+        flex-direction: column; 
+        align-items: center; 
     }
     .item1:nth-child(1),
     .item1:nth-child(2),
