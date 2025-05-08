@@ -140,14 +140,14 @@ p:a {
 }
 
 .item1:nth-child(2) {
-    display:flex
+    display:flex;
     width: 20%;
     justify-content: center; /* Centers horizontally */
     align-items: center; /* Centers vertically */
 }
 
 .item1:nth-child(2) img {
-    align:self: center; 
+    align-self: center; 
 }
 
 /* Identity styles */
