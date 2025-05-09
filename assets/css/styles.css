@@ -177,8 +177,10 @@ p:a {
     .item1:nth-child(3) {
         width: 100% !important; /* Each item occupies full width */
     }
-    .container:row {
-        flex-direction: column; 
-        align-items: center; 
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 }
