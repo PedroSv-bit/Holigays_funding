@@ -192,6 +192,33 @@ p a {
     padding: 5px;    
 }
 
+/*start bootstrap card styling*/
+
+a.card-text:hover {
+    color: #B0B4BA
+    text-decoration: underline;
+}
+
+.card-text .text-bg-light a {
+    color: #FAF9F6
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+.card-text .text-bg-light a:hover {
+    color: #B0B4BA
+    text-decoration: underline;
+}
+
+.card .text-bg-light a:hover {
+    color: #B0B4BA;
+    text-decoration: underline;
+}
+
+/*end bootstrap card styling*/
+
 /* Identity styles */
 
 #navbar-logo {
