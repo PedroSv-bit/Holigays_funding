@@ -208,6 +208,7 @@ p a {
     height: 200px;
     overflow: hidden;
 }
+
 /*Media instructions for viewport*/
 @media (max-width: 768px) {
     .container1 {
@@ -226,3 +227,56 @@ p a {
         align-items: center;
     }
 } /* Closing the @media block */
+/* Claude's flexbox indications */
+.container2 {
+            display: flex;
+            width: 100%;            
+        }
+
+        /* First container: 40% - 60% */
+        .container2-a .box:nth-child(1) {
+            width: 40%;
+            background-color: #f0f0f0;
+        }
+
+        .container2-a .box:nth-child(2) {
+            width: 60%;
+            background-color: #e0e0e0;
+            padding: 5px;
+        }
+
+        /* Second container: 60% - 40% */
+        .container2-b .box:nth-child(1) {
+            width: 60%;
+            background-color: #d0d0d0;
+            padding: 5px;
+        }
+
+        .container2-b .box:nth-child(2) {
+            width: 40%;
+            background-color: #c0c0c0;
+        }
+
+        /* Content styling for demonstration */
+        .box {
+            min-height: 150px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+        /* Media query for screens smaller than 992px */
+        @media screen and (max-width: 992px) {
+            .container2 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container2-a .box:nth-child(1),
+            .container2-a .box:nth-child(2),
+            .container2-b .box:nth-child(1),
+            .container2-b .box:nth-child(2) {
+                width: 100%;
+            }
+        }
+/*end Claude's flexbox indications */
