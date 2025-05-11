@@ -135,6 +135,8 @@ h6 {
 .row {
        --bs-gutter-x: 0; /* Removes horizontal gaps */ 
 }
+/*Parallax classes*/
+/*end parallax classes*/
 
 /* Pseudo-classes */
 
