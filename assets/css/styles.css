@@ -52,10 +52,18 @@ h6 {
 
 /* Utility Classes */
 
-.floating-navbar {
-    margin: 8px;
+.floating-navbar {    
     border-radius: 8px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 98vw;    
     z-index: 1030;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 8px;
     }
 
 .navbar-footer-local {
@@ -192,33 +200,6 @@ p a {
     padding: 5px;    
 }
 
-/*start bootstrap card styling*/
-
-a.card-text:hover {
-    color: #B0B4BA
-    text-decoration: underline;
-}
-
-.card-text .text-bg-light a {
-    color: #FAF9F6
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: 400;
-    font-size: 0.75em;
-    text-decoration: none;
-}
-
-.card-text .text-bg-light a:hover {
-    color: #B0B4BA
-    text-decoration: underline;
-}
-
-.card .text-bg-light a:hover {
-    color: #B0B4BA;
-    text-decoration: underline;
-}
-
-/*end bootstrap card styling*/
-
 /* Identity styles */
 
 #navbar-logo {
@@ -234,6 +215,13 @@ a.card-text:hover {
     width: 300px; 
     height: 200px;
     overflow: hidden;
+}
+
+#hero1 {
+    height: 400px;
+    width: 100%;
+    background: url("../images/dummy_21_9.png");
+    background-position: center;
 }
 
 /*Media instructions for viewport*/
