@@ -83,15 +83,14 @@ h6 {
     max-width: 100%;
     width: 100%;
     display: flex;
-    justify-content: center;
-    border: 1px solid #555C66; /* Just for visualization */
+    justify-content: center;    
     align-items: center;    
 }
 
 .content {
     width: 100%;
     max-width: 800px;
-    border: 1px solid #555C66; /* Just for visualization */
+    border: 1px solid #1E3A5F; /* Just for visualization */
     padding: 10%;
 }
 
@@ -125,7 +124,7 @@ h6 {
 .item1 {
     flex: 0 1 auto; 
     Margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
     padding: 5px;    
 }
 
@@ -172,6 +171,7 @@ p a {
 
 .item1:nth-child(1), .item1:nth-child(3) {
     width: 38%;
+    align-self: flex-end;
 }
 
 .item1:nth-child(2) {
@@ -246,10 +246,41 @@ p a {
 }
 
 #hero1 {
-    height: 750px;
-    width: 100%;
-    background: url("../images/hero_with_orange3.png");
+    background-image: url("../images/hero_with_orange3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
+    position:relative;
+    height: 750px;
+    width: 100%;    
+}
+
+#cover-text {
+    background-color: rgba(103, 58, 183, 0.75);
+    border-radius: 10%;
+    font-family: "Syne Mono", monospace;
+    font-size: 100%; 
+    color: #CDDC39;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text h2, #cover-text h3 {
+    color: inherit;
+}
+
+@media (min-width: 769px) {
+    #cover-text {  
+        border-radius: 50%;     
+        width: 600px;
+        right: 200px;
+        padding: 60px;
+        position: absolute;
+    }
 }
 
 /*Media instructions for viewport*/
@@ -269,6 +300,15 @@ p a {
         flex-direction: column;
         align-items: center;
     }
+
+@media (min-width: 769px) {
+    #cover-text {       
+        width: 300px;
+        right: 50px;
+        position: absolute;
+    }
+}
+
 } /* Closing the @media block */
 /*2nd flexbox - to be sorted*/
 .container2 {
@@ -304,7 +344,7 @@ p a {
             align-items: flex-end;
             padding-bottom: 1px;
         }
-
+        
         /* Media query for screens smaller than 992px */
         @media screen and (max-width: 992px) {
             .container2 {
