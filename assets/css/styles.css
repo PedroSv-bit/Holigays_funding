@@ -2,6 +2,7 @@
 html, body {
     height: auto;
     margin: 0;
+    padding: 0;
     overflow: auto;
 }
 
@@ -73,10 +74,14 @@ h6 {
     }
 
 .navbar-footer-local {
-    background-color: #282c34; 
-    border: 1px solid #444;
-    font-family: 'Arial', sans-serif; 
-    color: #ffffff;
+    background-color: #FFC107 !important;
+    border: 2px solid #28A745;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 0.85em;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1E3A5F !important;    
     }
 
 .container { /*Container is a class of Bootstrap this would be to override it*/
@@ -85,6 +90,10 @@ h6 {
     display: flex;
     justify-content: center;    
     align-items: center;    
+}
+
+.footer-box {
+    text-align: left;
 }
 
 .content {
@@ -152,6 +161,15 @@ h6 {
     margin-top: 120px;
     left: 0;
     bottom: 0 !important;    
+}
+
+.footer-list {
+    list-style-type: none
+}
+
+.footer-container {
+    padding-top: 15px;
+    padding-bottom: 0;
 }
 
 /*Parallax classes*/
