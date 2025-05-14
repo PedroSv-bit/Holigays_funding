@@ -146,6 +146,12 @@ h6 {
 .row {
        --bs-gutter-x: 0; /* Removes horizontal gaps */ 
 }
+
+.Infra-navbar-section {
+    padding-top: 40px;
+    text-align: end;
+    text-justify: left;
+}
 /*Parallax classes*/
 /*end parallax classes*/
 
