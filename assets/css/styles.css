@@ -255,6 +255,16 @@ p a {
     font-style: normal;
 }
 
+.usp-box {
+    border-left: 2px solid #1E3A5F;
+    padding-left: 10px !important;
+    margin-left: 2px !important;
+}
+
+.usp-flex-container {
+    align-items: start !important;
+}
+
 /* Identity styles */
 
 #navbar-logo {
