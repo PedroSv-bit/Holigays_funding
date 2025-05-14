@@ -97,10 +97,11 @@ h6 {
 }
 
 .content {
+    background-color: #FAF9F6 !important;
     width: 100%;
-    max-width: 800px;
-    border: 1px solid #1E3A5F; /* Just for visualization */
-    padding: 10%;
+    max-width: 900px;
+    border: 1px solid #1E3A5F;
+    padding: 0;
 }
 
 .navbar-local {
