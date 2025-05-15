@@ -187,7 +187,7 @@ li a {
 }
 
 .overlay3:hover {
-    background: rgba(255, 193, 7, 0.7);
+    background: rgba(255, 193, 7, 0.8);
 }
 
 .overlay1 { /*testing*/
@@ -196,11 +196,63 @@ li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(3, 103, 194, 0.4); /* colour overlay */
+    background: rgba(3, 103, 194, 0.5); /* colour overlay */
 }
 
 .overlay1:hover {
-    background: rgba(3, 103, 194, 0.7);
+    background: rgba(3, 103, 194, 0.9);
+}
+
+.overlay2 { /*testing*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(233, 30, 99, 0.5); /* colour overlay */
+}
+
+.overlay2:hover {
+    background: rgba(233, 30, 99, 0.9);
+}
+
+.overlay4 { /*testing*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(103, 58, 183, 0.5); /* colour overlay */
+}
+
+.overlay4:hover {
+    background: rgba(103, 58, 183, 0.9);
+}
+
+.overlay5 { /*testing*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 87, 34, 0.5); /* colour overlay */
+}
+
+.overlay5:hover {
+    background: rgba(255, 87, 34, 0.9);
+}
+
+.overlay6 { /*testing*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(40, 167, 69, 0.5); /* colour overlay */
+}
+
+.overlay6:hover {
+    background: rgba(40, 167, 69, 0.9);
 }
 
 .cobalt-link {
@@ -239,11 +291,11 @@ li a {
 /*end parallax classes*/
 
 /* Pseudo-classes */
-
+/*
 .overlay3:hover {
     background: rgba(0, 0, 0, 0.6);
 }
-
+*/
 p a:hover {
     color: #1E3A5F;
     text-decoration: underline;
