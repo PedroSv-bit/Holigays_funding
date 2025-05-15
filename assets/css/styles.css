@@ -287,6 +287,18 @@ li a {
     padding-left: 10px;
 }
 
+.medaillon-box {
+    display: flex;
+    justify-content: center;
+}
+
+.medaillon {
+    margin: 40px;
+    border: 2px solid #1E3A5F;
+    border-radius:50%;
+    height: 300px;
+}
+
 /*Parallax classes*/
 /*end parallax classes*/
 
