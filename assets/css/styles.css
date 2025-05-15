@@ -177,23 +177,55 @@ li a {
     padding-bottom: 0;
 }
 
-.overlay { /*testing*/
+.overlay3 { /*testing*/
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 0, 0, 0.3); /* Red overlay */
+    background: rgba(0, 0, 0, 0); /* Black overlay */
 }
 
 .cobalt-link {
     color: #1E3A5F !important;
 }
 
+.pink-link {
+    color: #E91E63;
+}
+
+.transition-banner1 {
+    background-image: url("../images/banner_draft_for_parallax.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative;
+    height: 750px;
+    width: 100%;    
+}
+
+.banner-cover1 {
+    background-color: rgba(205, 220, 57, 0.75);     
+    border-radius: 10%;
+    font-family: "Syne Mono", monospace;
+    font-size: 100%; 
+    color: #E91E63 !important;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
 /*Parallax classes*/
 /*end parallax classes*/
 
 /* Pseudo-classes */
+
+.overlay3:hover {
+    background: rgba(0, 0, 0, 0.6);
+}
 
 p a:hover {
     color: #1E3A5F;
@@ -335,6 +367,13 @@ p a {
         padding: 60px;
         position: absolute;
     }
+    .banner-cover1 {  
+        border-radius: 50%;     
+        width: 600px;
+        left: 40px;
+        padding: 60px;
+        position: absolute;
+    }
 }
 
 /*Media instructions for viewport*/
@@ -359,6 +398,11 @@ p a {
     #cover-text {       
         width: 300px;
         right: 50px;
+        position: absolute;
+    }
+    .banner-cover1 {
+        width: 300px;
+        left: 50px;
         position: absolute;
     }
 }
