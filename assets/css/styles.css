@@ -183,7 +183,24 @@ li a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0); /* Black overlay */
+    background: rgba(255, 193, 7, 0.1); /* colour overlay */
+}
+
+.overlay3:hover {
+    background: rgba(255, 193, 7, 0.7);
+}
+
+.overlay1 { /*testing*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(3, 103, 194, 0.4); /* colour overlay */
+}
+
+.overlay1:hover {
+    background: rgba(3, 103, 194, 0.7);
 }
 
 .cobalt-link {
