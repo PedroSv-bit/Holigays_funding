@@ -290,6 +290,7 @@ li a {
 .medaillon-box {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .medaillon {
@@ -321,6 +322,10 @@ li a {
 
 .cat-darkon-light {
     color: #0A0D1C; 
+}
+
+.hidden {    /*Might be obsolote*/
+    display: none;
 }
 
 /*Parallax classes*/
