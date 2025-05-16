@@ -1,11 +1,18 @@
 # Holigays OTA - funding
+Deployed at https://pedros-studies.github.io/Holigays_funding/
+
+Repository at https://github.com/PedroS-Studies/Holigays_funding
+
 Sandbox project for hotel as destination OTA 
 
 # Table of Content
 
-## User Experience
+## User Experience and user stories
+[Download full UX including user stories](user_experience_user_stories.pdf)
+
 ### Strategy
 This project is developped as a Sandbox for a general OTA (Online Travel Agency) project for Hotel-as-destination with unlimited number of niches.
+
 ### Scope
 This first module of the sandbox is the fundraising website of Holigays Central. It is promoted under the umbrella of Arlesiana Ltd, which promotes long-tail marketing projects in hospitality. 
 The users of the website are expected to be 
@@ -38,59 +45,61 @@ Ideally the project developped in this sandbox will eventually become part of th
 * Prospective hotelier Users need a way to receive information about hotels of this niche so that they can prepare for what is coming their way.
 
 ### Design choices
+
 #### Fonts
 Sans-Serif choices:
 - Syne
 - Syne-mono
 - IBM Plex Sans
 #### Icons
+Icons linked from FontAwesome library
 
 #### Images
 Logotype use Arlesiana logo (black and white) contrast with Holigay swatch. The click on logo takes you to Arlesiana website.
 Hero-image of own copyright from Brighton Pride.
 Other assets from fee-of-charge stock
+
 #### Branding and Swatch
 Background: Off-white, Colour swatch from basic colours as used in the official LGBTQ banner – not extended banners.
 Font-colour picked from hero picture. CTA colour scheme to be taken from swatch.
 Not yet Holigays-specific final branding (leave open for investors or partners) or logos. Use generic LGBTQAI+ related branding to not commit too early. Use very light neutral colour filter on assets to simulate uniform branding possibly “Tekhelet” (#075299) or “Egyptian Gold” (#E7C38A).
 Provisory Branding including graphics and mockup logo are based on the LGBTQIA+ rainbow flag. Text and font elements are compatible with a limited swatch:
-![Full swatch](assets/images/Full%20swatch.PNG)
+![Full swatch](assets/images/full_swatch.PNG)
+
 ### Wireframes
 The responsive design of the index.html from smallest media to largest should flow according to this wireframe:
-![Wireframe responsive design smallest to largest media](/assets/images/Holigays%20Funding%20Home%20responsive%20v3.png)
-### Customer journey
+![Wireframe responsive design smallest to largest media](/assets/images/holigaysf_funding_home_responsive_v3.png)
+[Download further wireframes as PDF](holigays_funding_wireframes_v1.pdf)
 
 ### Pages
 - Index.html
-- Holigays home page – mirror index, for the loading on the Arlesiana website
 - Investors and partnerships landing page
-- Investors and partnerships registration form, unless embedded appointment interface collects that information too
-- Appointment confirmation page, if needed
 - Prospective customer landing page with external links to 'Crowdfunding' and 'buy me a coffee' and link to
-- 'Register for further information' form
-- 'Read more' page for Investors/partners
 - About page
 - Information for hoteliers
 - 404 page
-## Features
 
 ## Technologies used
+HTML
+CSS
+Frameworks and libraris:
+- Bootstrap
+- Google Fonts
+- FontAwesome
 
 ## Testing
 
-### Bugs
-
-### Unresolved Bugs
-
-### Testing User Stories
+See TESTING.MD
 
 ## Deployment
-
-## Maintenance, updates and scaleup
+Deployed at https://pedros-studies.github.io/Holigays_funding/
 
 ## Credits
+Adobe Stock
+UnSplash
+Adobe Firefly
 
 ### Content
+Content has been generated with Google Gemini Flash 2.0
 
 
-### Media
