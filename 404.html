@@ -64,7 +64,56 @@
             <!-- Start form features for contact form -->
             <div>
               <h2>Report any issues with the page that you were looking for</h2>
-              <form></form>
+              <div class="container-fluid">
+                <form action="/submit-form" method="post">
+                  <div class="row">
+                    <!-- Full name -->
+                    <div class="col-12 col-lg-6">
+                      <label for="name">Name and Surname</label>
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Enter your full name - no need of middle name" required>
+                    </div>
+                    <!-- Email-->
+                    <div class="col-12 col-lg-6">
+                      <label for="email">Your e-mail</label>
+                      <input type="email" id="email" name="email" class="form-control" placeholder="your.mail@email.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+                  </div>
+
+                  <div class="row mt-3">
+                    <!-- Dropdown Select Menu -->
+                    <div class="col-12 col-lg-6">
+                      <label for="subject">Which page produced this error</label>
+                      <select id="subject" name="subject" class="form-select" required>
+                        <option value="" disabled selected>-- Please select the page --</option>
+                        <option value="home">Homepage</option>
+                        <option value="investors">Investors</option>
+                        <option value="partners">Partnering</option>
+                        <option value="crowdfunding">Crowdfunding</option>
+                        <option value="hoteliers">Hoteliers</option>
+                        <option value="about">About</option>
+                        <option value="contact">Contact us</option>
+                        <option value="business">Business Enquiry</option>
+                        <option value="feedback">General Feedback</option>
+                      </select>
+                    </div>
+
+                    <!-- Text Field -->
+                    <div class="col-12 col-lg-6">
+                      <label for="message">Your Message (Max 500 characters)</label>
+                      <textarea id="message" name="message" class="form-control" rows="3" maxlength="500" placeholder="Write your message here..."></textarea>
+                    </div>
+                  </div>
+                  <!-- reCAPTCHA widget -->
+
+                  <!-- Submit and reset Button -->
+                  <div class="row mt-3">
+                    <div class="col-12 d-flex gap-2">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="reset" class="btn btn-secondary">Reset</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
             <!-- end form features for contact form -->
         </section>
